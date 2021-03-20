@@ -1,19 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style type="text/css">
-        body {background-color: #faf9f9; font-family: Tahoma,Arial;}
+        body {
+            background-color: #faf9f9;
+            font-family: Tahoma, Arial;
+        }
+
         #posicao {
             border-radius: 10%;
             position: absolute;
-            left: 50%; 
+            left: 50%;
             top: 50%;
             width: 500px;
-            height: 450px; 
+            height: 450px;
             margin-left: -250px;
             margin-top: -225px;
             background-color: #89b0ae;
@@ -21,7 +26,8 @@
             background-color: #89b0ae;
             text-align: center;
         }
-        .botao{
+
+        .botao {
             background-color: #faf9f9;
             border: none;
             color: #89b0ae;
@@ -30,42 +36,43 @@
             text-decoration: none;
             font-size: 16px;
         }
-      </style>
+    </style>
 </head>
+
 <body>
-    <header>Formulario</header>
+
     <body>
         <div id="posicao">
             <h1>Dados pessoais</h1>
             <form>
                 Primeiro nome:
-                <input type = "text" name = "firstname"></input>
+                <input type="text" name="firstname"></input>
                 <br><br>
                 Sobrenome:
-                <input type = "text" name = "lastname"></input>
+                <input type="text" name="lastname"></input>
                 <br><br>
                 <input type="radio" name="sex" value="male"> Masculino
                 <input type="radio" name="sex" value="female"> Feminino
                 <input type="radio" name="sex" value=""> Outro
             </form>
-    
+
             <h1>Endereço</h1>
             <form>
                 Estado:
-                <input type = "text" name = "state"></input>
+                <input type="text" name="state"></input>
                 Cidade:
-                <input type = "text" name = "city"></input>
+                <input type="text" name="city"></input>
                 <br><br>
                 Rua:
-                <input type = "text" name = "street"></input>
+                <input type="text" name="street"></input>
                 Bairro:
-                <input type = "text" name = "district"></input>
+                <input type="text" name="district"></input>
             </form> <br><br>
-                <button class="botao" type="submit">Enviar</button>
+            <button class="botao" type="submit">Enviar</button>
         </div>
-        
+
     </body>
 
-    <footer>Criado por Reyson R F Lustosa</footer>
 </body>
+
 </html>
